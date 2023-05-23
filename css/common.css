@@ -1,0 +1,32 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.h-font {
+  font-family: "Merienda", cursive;
+}
+
+/* 지역 선택 버튼 */
+.custom-bg {
+  background-color: #2ec1ac;
+  border: 1px solid #2ec1ac;
+}
+.custom-bg:hover {
+  background-color: #279e8c;
+  border-color: #279e8c;
+}
+
+/* 관리자 대시보드 */
+#dashboard-menu {
+  position: fixed;
+  height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  #dashboard-menu {
+    height: auto;
+    width: 100%;
+  }
+  #main-content {
+    margin-top: 60px;
+  }
+}
